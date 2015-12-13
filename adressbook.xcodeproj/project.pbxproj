@@ -7,13 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810D4C181C1C05870077CDE2 /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 810D4C131C1C05870077CDE2 /* SMS_SDKLocalizable.strings */; };
+		810D4C191C1C05870077CDE2 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810D4C151C1C05870077CDE2 /* MOBFoundation.framework */; };
+		810D4C1A1C1C05870077CDE2 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810D4C161C1C05870077CDE2 /* SMS_SDK.framework */; };
+		810D4C1C1C1C05BD0077CDE2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810D4C1B1C1C05BD0077CDE2 /* MessageUI.framework */; };
+		81182F231BFA010C00186305 /* NumberPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81182F221BFA010C00186305 /* NumberPhone.swift */; };
+		8178E7421BFC0F6C00C46536 /* HYUitableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178E7411BFC0F6C00C46536 /* HYUitableView.swift */; };
+		8178E7441BFC8BC800C46536 /* HYKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178E7431BFC8BC800C46536 /* HYKeychain.swift */; };
+		817B4FDC1BF338BE00420DC2 /* ScanQrCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B4FDB1BF338BE00420DC2 /* ScanQrCodeViewController.swift */; };
+		8188B40B1C17097B0060E001 /* SqliteOpertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8188B40A1C17097B0060E001 /* SqliteOpertion.swift */; };
+		8191553F1C001B64004E68A9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8191553E1C001B64004E68A9 /* Colors.swift */; };
+		819155411C003255004E68A9 /* HYAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819155401C003255004E68A9 /* HYAlertViewController.swift */; };
+		819155431C00559B004E68A9 /* HYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819155421C00559B004E68A9 /* HYAlertView.swift */; };
 		81A035D91BEA1BFA00CB183C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A035D81BEA1BFA00CB183C /* AppDelegate.swift */; };
-		81A035DB1BEA1BFA00CB183C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A035DA1BEA1BFA00CB183C /* ViewController.swift */; };
-		81A035DE1BEA1BFA00CB183C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A035DC1BEA1BFA00CB183C /* Main.storyboard */; };
 		81A035E01BEA1BFA00CB183C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A035DF1BEA1BFA00CB183C /* Assets.xcassets */; };
 		81A035E31BEA1BFA00CB183C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A035E11BEA1BFA00CB183C /* LaunchScreen.storyboard */; };
 		81A035EE1BEA1BFA00CB183C /* adressbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A035ED1BEA1BFA00CB183C /* adressbookTests.swift */; };
 		81A035F91BEA1BFA00CB183C /* adressbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A035F81BEA1BFA00CB183C /* adressbookUITests.swift */; };
+		81A036171BEA1C8300CB183C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036091BEA1C8300CB183C /* Alamofire.swift */; };
+		81A036181BEA1C8300CB183C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360A1BEA1C8300CB183C /* Download.swift */; };
+		81A036191BEA1C8300CB183C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360B1BEA1C8300CB183C /* Error.swift */; };
+		81A0361A1BEA1C8300CB183C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360C1BEA1C8300CB183C /* Manager.swift */; };
+		81A0361B1BEA1C8300CB183C /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360D1BEA1C8300CB183C /* MultipartFormData.swift */; };
+		81A0361C1BEA1C8300CB183C /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360E1BEA1C8300CB183C /* ParameterEncoding.swift */; };
+		81A0361D1BEA1C8300CB183C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0360F1BEA1C8300CB183C /* Request.swift */; };
+		81A0361E1BEA1C8300CB183C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036101BEA1C8300CB183C /* Response.swift */; };
+		81A0361F1BEA1C8300CB183C /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036111BEA1C8300CB183C /* ResponseSerialization.swift */; };
+		81A036201BEA1C8300CB183C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036121BEA1C8300CB183C /* Result.swift */; };
+		81A036211BEA1C8300CB183C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036131BEA1C8300CB183C /* ServerTrustPolicy.swift */; };
+		81A036221BEA1C8300CB183C /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036141BEA1C8300CB183C /* Stream.swift */; };
+		81A036231BEA1C8300CB183C /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036151BEA1C8300CB183C /* Upload.swift */; };
+		81A036241BEA1C8300CB183C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036161BEA1C8300CB183C /* Validation.swift */; };
+		81A036291BEA305700CB183C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A036281BEA305700CB183C /* SplashViewController.swift */; };
+		81A0362B1BEA308000CB183C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0362A1BEA308000CB183C /* SplashView.swift */; };
+		81AE17BA1BF56E7000C6BDCB /* HomeAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE17B91BF56E7000C6BDCB /* HomeAddressTableViewCell.swift */; };
+		81AE17F61BF5AB0C00C6BDCB /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE17F51BF5AB0C00C6BDCB /* SetViewController.swift */; };
+		81B3686E1C1A8C9B0069F848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B3686C1C1A8C9B0069F848 /* Main.storyboard */; };
+		81B368701C1A93C90069F848 /* NSArrayextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B3686F1C1A93C90069F848 /* NSArrayextension.swift */; };
+		81B46E561BEB12430071D024 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E551BEB12430071D024 /* RegisterViewController.swift */; };
+		81B46E581BEB13010071D024 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E571BEB13010071D024 /* RegisterView.swift */; };
+		81B46E5A1BEB1A9C0071D024 /* UploadAddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E591BEB1A9C0071D024 /* UploadAddressBookViewController.swift */; };
+		81B46E5D1BEB431E0071D024 /* UploadAddressStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E5C1BEB431E0071D024 /* UploadAddressStruct.swift */; };
+		81B46E5F1BEB4BC20071D024 /* AddressTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E5E1BEB4BC20071D024 /* AddressTabbar.swift */; };
+		81B46E611BEB4E580071D024 /* AddressBookTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B46E601BEB4E580071D024 /* AddressBookTabBarControllerViewController.swift */; };
+		81B8D3541BEAEEC200E1F4A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8D3531BEAEEC200E1F4A2 /* LoginViewController.swift */; };
+		81BBAF341BFAC8410027E469 /* UserAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BBAF331BFAC8410027E469 /* UserAddress.swift */; };
+		81BBAF361BFACB620027E469 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BBAF351BFACB620027E469 /* StringExtension.swift */; };
+		81C136731BEEE0BA00D848B5 /* HomeAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C136721BEEE0BA00D848B5 /* HomeAddressViewController.swift */; };
+		81C136751BEEE6B500D848B5 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C136741BEEE6B500D848B5 /* Register.swift */; };
+		81C136771BEEEFDE00D848B5 /* MessageNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C136761BEEEFDE00D848B5 /* MessageNotice.swift */; };
+		81C9D9D31BF8885300911B9F /* tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9D9D21BF8885300911B9F /* tools.swift */; };
+		81CC46921BF6E43800F81120 /* PersonalCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC46911BF6E43800F81120 /* PersonalCodeViewController.swift */; };
+		81CC46961BF727DD00F81120 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46951BF727DD00F81120 /* ImageIO.framework */; };
+		81CC46981BF727E500F81120 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46971BF727E500F81120 /* AdSupport.framework */; };
+		81CC469A1BF727FB00F81120 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46991BF727FB00F81120 /* libsqlite3.0.tbd */; };
+		81CC469C1BF7282E00F81120 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC469B1BF7282E00F81120 /* libicucore.tbd */; };
+		81CC469E1BF7284500F81120 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC469D1BF7284500F81120 /* libstdc++.tbd */; };
+		81CC46A01BF7284F00F81120 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC469F1BF7284F00F81120 /* JavaScriptCore.framework */; };
+		81CC46CF1BF72A5100F81120 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46B31BF72A5100F81120 /* TencentOpenAPI.framework */; };
+		81CC46D01BF72A5100F81120 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81CC46B41BF72A5100F81120 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		81CC46D11BF72A5100F81120 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46B61BF72A5100F81120 /* libWeiboSDK.a */; };
+		81CC46D21BF72A5100F81120 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81CC46C01BF72A5100F81120 /* WeiboSDK.bundle */; };
+		81CC46D31BF72A5100F81120 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46C41BF72A5100F81120 /* libWeChatSDK.a */; };
+		81CC46D41BF72A5100F81120 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81CC46C51BF72A5100F81120 /* read_me.txt */; };
+		81CC46D51BF72A5100F81120 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46C81BF72A5100F81120 /* MOBFoundation.framework */; };
+		81CC46D61BF72A5100F81120 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81CC46C91BF72A5100F81120 /* ShareSDK.bundle */; };
+		81CC46D71BF72A5100F81120 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46CA1BF72A5100F81120 /* ShareSDK.framework */; };
+		81CC46D81BF72A5100F81120 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46CB1BF72A5100F81120 /* ShareSDKConnector.framework */; };
+		81CC46D91BF72A5100F81120 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46CC1BF72A5100F81120 /* ShareSDKExtension.framework */; };
+		81CC46DA1BF72A5100F81120 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81CC46CD1BF72A5100F81120 /* ShareSDKUI.bundle */; };
+		81CC46DB1BF72A5100F81120 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46CE1BF72A5100F81120 /* ShareSDKUI.framework */; };
+		81CC46DC1BF72BBA00F81120 /* adressbook-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 81CC46A21BF728D900F81120 /* adressbook-Bridging-Header.h */; };
+		81CC46DE1BF72F8A00F81120 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46DD1BF72F8A00F81120 /* libz.tbd */; };
+		81CC46E01BF72F9500F81120 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC46DF1BF72F9500F81120 /* libc++.tbd */; };
+		81F5F1E31C01A7E3007D2602 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F5F1E21C01A7E3007D2602 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +101,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810D4C141C1C05870077CDE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		810D4C151C1C05870077CDE2 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		810D4C161C1C05870077CDE2 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		810D4C171C1C05870077CDE2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
+		810D4C1B1C1C05BD0077CDE2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		81182F221BFA010C00186305 /* NumberPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPhone.swift; sourceTree = "<group>"; };
+		8178E7411BFC0F6C00C46536 /* HYUitableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYUitableView.swift; sourceTree = "<group>"; };
+		8178E7431BFC8BC800C46536 /* HYKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKeychain.swift; sourceTree = "<group>"; };
+		817B4FDB1BF338BE00420DC2 /* ScanQrCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQrCodeViewController.swift; sourceTree = "<group>"; };
+		8188B40A1C17097B0060E001 /* SqliteOpertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqliteOpertion.swift; sourceTree = "<group>"; };
+		8191553E1C001B64004E68A9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		819155401C003255004E68A9 /* HYAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYAlertViewController.swift; sourceTree = "<group>"; };
+		819155421C00559B004E68A9 /* HYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYAlertView.swift; sourceTree = "<group>"; };
 		81A035D51BEA1BFA00CB183C /* adressbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adressbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A035D81BEA1BFA00CB183C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81A035DA1BEA1BFA00CB183C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81A035DD1BEA1BFA00CB183C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A035DF1BEA1BFA00CB183C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A035E21BEA1BFA00CB183C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A035E41BEA1BFA00CB183C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +125,76 @@
 		81A035F41BEA1BFA00CB183C /* adressbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adressbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A035F81BEA1BFA00CB183C /* adressbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adressbookUITests.swift; sourceTree = "<group>"; };
 		81A035FA1BEA1BFA00CB183C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A036091BEA1C8300CB183C /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = alamofire/Alamofire.swift; sourceTree = "<group>"; };
+		81A0360A1BEA1C8300CB183C /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = alamofire/Download.swift; sourceTree = "<group>"; };
+		81A0360B1BEA1C8300CB183C /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = alamofire/Error.swift; sourceTree = "<group>"; };
+		81A0360C1BEA1C8300CB183C /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = alamofire/Manager.swift; sourceTree = "<group>"; };
+		81A0360D1BEA1C8300CB183C /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = alamofire/MultipartFormData.swift; sourceTree = "<group>"; };
+		81A0360E1BEA1C8300CB183C /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = alamofire/ParameterEncoding.swift; sourceTree = "<group>"; };
+		81A0360F1BEA1C8300CB183C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = alamofire/Request.swift; sourceTree = "<group>"; };
+		81A036101BEA1C8300CB183C /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = alamofire/Response.swift; sourceTree = "<group>"; };
+		81A036111BEA1C8300CB183C /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = alamofire/ResponseSerialization.swift; sourceTree = "<group>"; };
+		81A036121BEA1C8300CB183C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = alamofire/Result.swift; sourceTree = "<group>"; };
+		81A036131BEA1C8300CB183C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = alamofire/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		81A036141BEA1C8300CB183C /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = alamofire/Stream.swift; sourceTree = "<group>"; };
+		81A036151BEA1C8300CB183C /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = alamofire/Upload.swift; sourceTree = "<group>"; };
+		81A036161BEA1C8300CB183C /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = alamofire/Validation.swift; sourceTree = "<group>"; };
+		81A036281BEA305700CB183C /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		81A0362A1BEA308000CB183C /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		81AE17B91BF56E7000C6BDCB /* HomeAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAddressTableViewCell.swift; sourceTree = "<group>"; };
+		81AE17F51BF5AB0C00C6BDCB /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		81B3686D1C1A8C9B0069F848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = adressbook/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B3686F1C1A93C90069F848 /* NSArrayextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArrayextension.swift; sourceTree = "<group>"; };
+		81B46E551BEB12430071D024 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		81B46E571BEB13010071D024 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		81B46E591BEB1A9C0071D024 /* UploadAddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAddressBookViewController.swift; sourceTree = "<group>"; };
+		81B46E5C1BEB431E0071D024 /* UploadAddressStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadAddressStruct.swift; sourceTree = "<group>"; };
+		81B46E5E1BEB4BC20071D024 /* AddressTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTabbar.swift; sourceTree = "<group>"; };
+		81B46E601BEB4E580071D024 /* AddressBookTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		81B8D3531BEAEEC200E1F4A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		81BBAF331BFAC8410027E469 /* UserAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAddress.swift; sourceTree = "<group>"; };
+		81BBAF351BFACB620027E469 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		81C136721BEEE0BA00D848B5 /* HomeAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAddressViewController.swift; sourceTree = "<group>"; };
+		81C136741BEEE6B500D848B5 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		81C136761BEEEFDE00D848B5 /* MessageNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNotice.swift; sourceTree = "<group>"; };
+		81C9D9D21BF8885300911B9F /* tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tools.swift; sourceTree = "<group>"; };
+		81CC46911BF6E43800F81120 /* PersonalCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCodeViewController.swift; sourceTree = "<group>"; };
+		81CC46951BF727DD00F81120 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		81CC46971BF727E500F81120 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		81CC46991BF727FB00F81120 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		81CC469B1BF7282E00F81120 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		81CC469D1BF7284500F81120 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		81CC469F1BF7284F00F81120 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		81CC46A21BF728D900F81120 /* adressbook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "adressbook-Bridging-Header.h"; sourceTree = "<group>"; };
+		81CC46B31BF72A5100F81120 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		81CC46B41BF72A5100F81120 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		81CC46B61BF72A5100F81120 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		81CC46B71BF72A5100F81120 /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		81CC46B81BF72A5100F81120 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		81CC46B91BF72A5100F81120 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		81CC46BA1BF72A5100F81120 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		81CC46BB1BF72A5100F81120 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		81CC46BC1BF72A5100F81120 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		81CC46BD1BF72A5100F81120 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		81CC46BE1BF72A5100F81120 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		81CC46BF1BF72A5100F81120 /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		81CC46C01BF72A5100F81120 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		81CC46C11BF72A5100F81120 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		81CC46C21BF72A5100F81120 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		81CC46C41BF72A5100F81120 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		81CC46C51BF72A5100F81120 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		81CC46C61BF72A5100F81120 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		81CC46C71BF72A5100F81120 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		81CC46C81BF72A5100F81120 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		81CC46C91BF72A5100F81120 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		81CC46CA1BF72A5100F81120 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		81CC46CB1BF72A5100F81120 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		81CC46CC1BF72A5100F81120 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		81CC46CD1BF72A5100F81120 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		81CC46CE1BF72A5100F81120 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		81CC46DD1BF72F8A00F81120 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		81CC46DF1BF72F9500F81120 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		81F5F1E21C01A7E3007D2602 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +202,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810D4C1C1C1C05BD0077CDE2 /* MessageUI.framework in Frameworks */,
+				81CC469A1BF727FB00F81120 /* libsqlite3.0.tbd in Frameworks */,
+				81CC46D91BF72A5100F81120 /* ShareSDKExtension.framework in Frameworks */,
+				81CC46D71BF72A5100F81120 /* ShareSDK.framework in Frameworks */,
+				810D4C1A1C1C05870077CDE2 /* SMS_SDK.framework in Frameworks */,
+				81CC46D81BF72A5100F81120 /* ShareSDKConnector.framework in Frameworks */,
+				81CC46DB1BF72A5100F81120 /* ShareSDKUI.framework in Frameworks */,
+				81CC46D51BF72A5100F81120 /* MOBFoundation.framework in Frameworks */,
+				81CC46CF1BF72A5100F81120 /* TencentOpenAPI.framework in Frameworks */,
+				81CC46A01BF7284F00F81120 /* JavaScriptCore.framework in Frameworks */,
+				81CC46D31BF72A5100F81120 /* libWeChatSDK.a in Frameworks */,
+				81CC46D11BF72A5100F81120 /* libWeiboSDK.a in Frameworks */,
+				81CC46981BF727E500F81120 /* AdSupport.framework in Frameworks */,
+				81CC46961BF727DD00F81120 /* ImageIO.framework in Frameworks */,
+				81CC46E01BF72F9500F81120 /* libc++.tbd in Frameworks */,
+				81CC46DE1BF72F8A00F81120 /* libz.tbd in Frameworks */,
+				81CC469E1BF7284500F81120 /* libstdc++.tbd in Frameworks */,
+				810D4C191C1C05870077CDE2 /* MOBFoundation.framework in Frameworks */,
+				81CC469C1BF7282E00F81120 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +241,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		810D4C121C1C05870077CDE2 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				810D4C131C1C05870077CDE2 /* SMS_SDKLocalizable.strings */,
+				810D4C151C1C05870077CDE2 /* MOBFoundation.framework */,
+				810D4C161C1C05870077CDE2 /* SMS_SDK.framework */,
+			);
+			name = SMS_SDK;
+			path = ../../SMS_SDK;
+			sourceTree = "<group>";
+		};
+		8188B4091C1708A20060E001 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				8188B40A1C17097B0060E001 /* SqliteOpertion.swift */,
+			);
+			name = sqlite;
+			sourceTree = "<group>";
+		};
 		81A035CC1BEA1BFA00CB183C = {
 			isa = PBXGroup;
 			children = (
+				81CC46A11BF7285700F81120 /* framework */,
 				81A035D71BEA1BFA00CB183C /* adressbook */,
 				81A035EC1BEA1BFA00CB183C /* adressbookTests */,
 				81A035F71BEA1BFA00CB183C /* adressbookUITests */,
@@ -97,12 +284,16 @@
 		81A035D71BEA1BFA00CB183C /* adressbook */ = {
 			isa = PBXGroup;
 			children = (
+				81CC46B01BF72A5100F81120 /* libraries */,
+				81B46E5B1BEB43000071D024 /* model */,
+				81A036261BEA2FB900CB183C /* viewController */,
+				81A036061BEA1C5A00CB183C /* untils */,
 				81A035D81BEA1BFA00CB183C /* AppDelegate.swift */,
-				81A035DA1BEA1BFA00CB183C /* ViewController.swift */,
-				81A035DC1BEA1BFA00CB183C /* Main.storyboard */,
 				81A035DF1BEA1BFA00CB183C /* Assets.xcassets */,
+				81B3686C1C1A8C9B0069F848 /* Main.storyboard */,
 				81A035E11BEA1BFA00CB183C /* LaunchScreen.storyboard */,
 				81A035E41BEA1BFA00CB183C /* Info.plist */,
+				81CC46A21BF728D900F81120 /* adressbook-Bridging-Header.h */,
 			);
 			path = adressbook;
 			sourceTree = "<group>";
@@ -123,6 +314,167 @@
 				81A035FA1BEA1BFA00CB183C /* Info.plist */,
 			);
 			path = adressbookUITests;
+			sourceTree = "<group>";
+		};
+		81A036061BEA1C5A00CB183C /* untils */ = {
+			isa = PBXGroup;
+			children = (
+				8188B4091C1708A20060E001 /* sqlite */,
+				81A036071BEA1C6900CB183C /* net */,
+				81C136741BEEE6B500D848B5 /* Register.swift */,
+				81C9D9D21BF8885300911B9F /* tools.swift */,
+				81BBAF351BFACB620027E469 /* StringExtension.swift */,
+				8178E7431BFC8BC800C46536 /* HYKeychain.swift */,
+				8191553E1C001B64004E68A9 /* Colors.swift */,
+				81B3686F1C1A93C90069F848 /* NSArrayextension.swift */,
+			);
+			name = untils;
+			sourceTree = "<group>";
+		};
+		81A036071BEA1C6900CB183C /* net */ = {
+			isa = PBXGroup;
+			children = (
+				81A036091BEA1C8300CB183C /* Alamofire.swift */,
+				81A0360A1BEA1C8300CB183C /* Download.swift */,
+				81A0360B1BEA1C8300CB183C /* Error.swift */,
+				81A0360C1BEA1C8300CB183C /* Manager.swift */,
+				81A0360D1BEA1C8300CB183C /* MultipartFormData.swift */,
+				81A0360E1BEA1C8300CB183C /* ParameterEncoding.swift */,
+				81A0360F1BEA1C8300CB183C /* Request.swift */,
+				81A036101BEA1C8300CB183C /* Response.swift */,
+				81A036111BEA1C8300CB183C /* ResponseSerialization.swift */,
+				81A036121BEA1C8300CB183C /* Result.swift */,
+				81A036131BEA1C8300CB183C /* ServerTrustPolicy.swift */,
+				81A036141BEA1C8300CB183C /* Stream.swift */,
+				81A036151BEA1C8300CB183C /* Upload.swift */,
+				81A036161BEA1C8300CB183C /* Validation.swift */,
+			);
+			name = net;
+			sourceTree = "<group>";
+		};
+		81A036261BEA2FB900CB183C /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				81A036271BEA2FCF00CB183C /* view */,
+				81A036281BEA305700CB183C /* SplashViewController.swift */,
+				81B8D3531BEAEEC200E1F4A2 /* LoginViewController.swift */,
+				81B46E551BEB12430071D024 /* RegisterViewController.swift */,
+				81B46E591BEB1A9C0071D024 /* UploadAddressBookViewController.swift */,
+				81B46E601BEB4E580071D024 /* AddressBookTabBarControllerViewController.swift */,
+				81C136721BEEE0BA00D848B5 /* HomeAddressViewController.swift */,
+				817B4FDB1BF338BE00420DC2 /* ScanQrCodeViewController.swift */,
+				81AE17F51BF5AB0C00C6BDCB /* SetViewController.swift */,
+				81CC46911BF6E43800F81120 /* PersonalCodeViewController.swift */,
+				81F5F1E21C01A7E3007D2602 /* AboutViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		81A036271BEA2FCF00CB183C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				81A0362A1BEA308000CB183C /* SplashView.swift */,
+				81B46E571BEB13010071D024 /* RegisterView.swift */,
+				81B46E5E1BEB4BC20071D024 /* AddressTabbar.swift */,
+				81C136761BEEEFDE00D848B5 /* MessageNotice.swift */,
+				81AE17B91BF56E7000C6BDCB /* HomeAddressTableViewCell.swift */,
+				81182F221BFA010C00186305 /* NumberPhone.swift */,
+				8178E7411BFC0F6C00C46536 /* HYUitableView.swift */,
+				819155401C003255004E68A9 /* HYAlertViewController.swift */,
+				819155421C00559B004E68A9 /* HYAlertView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		81B46E5B1BEB43000071D024 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				81B46E5C1BEB431E0071D024 /* UploadAddressStruct.swift */,
+				81BBAF331BFAC8410027E469 /* UserAddress.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		81CC46A11BF7285700F81120 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				810D4C1B1C1C05BD0077CDE2 /* MessageUI.framework */,
+				81CC46DF1BF72F9500F81120 /* libc++.tbd */,
+				81CC46DD1BF72F8A00F81120 /* libz.tbd */,
+				81CC469F1BF7284F00F81120 /* JavaScriptCore.framework */,
+				81CC469D1BF7284500F81120 /* libstdc++.tbd */,
+				81CC469B1BF7282E00F81120 /* libicucore.tbd */,
+				81CC46991BF727FB00F81120 /* libsqlite3.0.tbd */,
+				81CC46971BF727E500F81120 /* AdSupport.framework */,
+				81CC46951BF727DD00F81120 /* ImageIO.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		81CC46B01BF72A5100F81120 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				810D4C121C1C05870077CDE2 /* SMS_SDK */,
+				81CC46B11BF72A5100F81120 /* extends */,
+				81CC46C81BF72A5100F81120 /* MOBFoundation.framework */,
+				81CC46C91BF72A5100F81120 /* ShareSDK.bundle */,
+				81CC46CA1BF72A5100F81120 /* ShareSDK.framework */,
+				81CC46CB1BF72A5100F81120 /* ShareSDKConnector.framework */,
+				81CC46CC1BF72A5100F81120 /* ShareSDKExtension.framework */,
+				81CC46CD1BF72A5100F81120 /* ShareSDKUI.bundle */,
+				81CC46CE1BF72A5100F81120 /* ShareSDKUI.framework */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		81CC46B11BF72A5100F81120 /* extends */ = {
+			isa = PBXGroup;
+			children = (
+				81CC46B21BF72A5100F81120 /* QQSDK */,
+				81CC46B51BF72A5100F81120 /* SinaWeiboSDK */,
+				81CC46C31BF72A5100F81120 /* WeChatSDK */,
+			);
+			path = extends;
+			sourceTree = "<group>";
+		};
+		81CC46B21BF72A5100F81120 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				81CC46B31BF72A5100F81120 /* TencentOpenAPI.framework */,
+				81CC46B41BF72A5100F81120 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		81CC46B51BF72A5100F81120 /* SinaWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				81CC46B61BF72A5100F81120 /* libWeiboSDK.a */,
+				81CC46B71BF72A5100F81120 /* WBHttpRequest+WeiboGame.h */,
+				81CC46B81BF72A5100F81120 /* WBHttpRequest+WeiboShare.h */,
+				81CC46B91BF72A5100F81120 /* WBHttpRequest+WeiboToken.h */,
+				81CC46BA1BF72A5100F81120 /* WBHttpRequest+WeiboUser.h */,
+				81CC46BB1BF72A5100F81120 /* WBHttpRequest.h */,
+				81CC46BC1BF72A5100F81120 /* WBSDKBasicButton.h */,
+				81CC46BD1BF72A5100F81120 /* WBSDKCommentButton.h */,
+				81CC46BE1BF72A5100F81120 /* WBSDKRelationshipButton.h */,
+				81CC46BF1BF72A5100F81120 /* WeiboSDK+Statistics.h */,
+				81CC46C01BF72A5100F81120 /* WeiboSDK.bundle */,
+				81CC46C11BF72A5100F81120 /* WeiboSDK.h */,
+				81CC46C21BF72A5100F81120 /* WeiboUser.h */,
+			);
+			path = SinaWeiboSDK;
+			sourceTree = "<group>";
+		};
+		81CC46C31BF72A5100F81120 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				81CC46C41BF72A5100F81120 /* libWeChatSDK.a */,
+				81CC46C51BF72A5100F81120 /* read_me.txt */,
+				81CC46C61BF72A5100F81120 /* WXApi.h */,
+				81CC46C71BF72A5100F81120 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +566,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 81A035CC1BEA1BFA00CB183C;
 			productRefGroup = 81A035D61BEA1BFA00CB183C /* Products */;
@@ -232,9 +585,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CC46D01BF72A5100F81120 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				81A035E31BEA1BFA00CB183C /* LaunchScreen.storyboard in Resources */,
+				81CC46D21BF72A5100F81120 /* WeiboSDK.bundle in Resources */,
+				81B3686E1C1A8C9B0069F848 /* Main.storyboard in Resources */,
+				81CC46D61BF72A5100F81120 /* ShareSDK.bundle in Resources */,
+				81CC46DA1BF72A5100F81120 /* ShareSDKUI.bundle in Resources */,
 				81A035E01BEA1BFA00CB183C /* Assets.xcassets in Resources */,
-				81A035DE1BEA1BFA00CB183C /* Main.storyboard in Resources */,
+				810D4C181C1C05870077CDE2 /* SMS_SDKLocalizable.strings in Resources */,
+				81CC46D41BF72A5100F81120 /* read_me.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +618,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A035DB1BEA1BFA00CB183C /* ViewController.swift in Sources */,
+				81CC46DC1BF72BBA00F81120 /* adressbook-Bridging-Header.h in Sources */,
+				81B46E5F1BEB4BC20071D024 /* AddressTabbar.swift in Sources */,
+				81A036171BEA1C8300CB183C /* Alamofire.swift in Sources */,
+				81A0361A1BEA1C8300CB183C /* Manager.swift in Sources */,
+				817B4FDC1BF338BE00420DC2 /* ScanQrCodeViewController.swift in Sources */,
+				81A036291BEA305700CB183C /* SplashViewController.swift in Sources */,
+				8178E7441BFC8BC800C46536 /* HYKeychain.swift in Sources */,
+				81B46E581BEB13010071D024 /* RegisterView.swift in Sources */,
+				81A0361C1BEA1C8300CB183C /* ParameterEncoding.swift in Sources */,
+				81C136751BEEE6B500D848B5 /* Register.swift in Sources */,
+				81C136771BEEEFDE00D848B5 /* MessageNotice.swift in Sources */,
+				81B8D3541BEAEEC200E1F4A2 /* LoginViewController.swift in Sources */,
+				81BBAF361BFACB620027E469 /* StringExtension.swift in Sources */,
+				81182F231BFA010C00186305 /* NumberPhone.swift in Sources */,
+				81A0361B1BEA1C8300CB183C /* MultipartFormData.swift in Sources */,
+				81AE17BA1BF56E7000C6BDCB /* HomeAddressTableViewCell.swift in Sources */,
+				81B46E5A1BEB1A9C0071D024 /* UploadAddressBookViewController.swift in Sources */,
+				81A0361E1BEA1C8300CB183C /* Response.swift in Sources */,
+				81B368701C1A93C90069F848 /* NSArrayextension.swift in Sources */,
+				81C9D9D31BF8885300911B9F /* tools.swift in Sources */,
+				81A036211BEA1C8300CB183C /* ServerTrustPolicy.swift in Sources */,
+				81A036241BEA1C8300CB183C /* Validation.swift in Sources */,
+				81A036231BEA1C8300CB183C /* Upload.swift in Sources */,
+				81A036181BEA1C8300CB183C /* Download.swift in Sources */,
+				81B46E561BEB12430071D024 /* RegisterViewController.swift in Sources */,
+				8191553F1C001B64004E68A9 /* Colors.swift in Sources */,
+				81A036201BEA1C8300CB183C /* Result.swift in Sources */,
+				8178E7421BFC0F6C00C46536 /* HYUitableView.swift in Sources */,
+				81A0362B1BEA308000CB183C /* SplashView.swift in Sources */,
+				81B46E5D1BEB431E0071D024 /* UploadAddressStruct.swift in Sources */,
+				81A036191BEA1C8300CB183C /* Error.swift in Sources */,
+				81A0361F1BEA1C8300CB183C /* ResponseSerialization.swift in Sources */,
+				819155431C00559B004E68A9 /* HYAlertView.swift in Sources */,
+				81A0361D1BEA1C8300CB183C /* Request.swift in Sources */,
+				81C136731BEEE0BA00D848B5 /* HomeAddressViewController.swift in Sources */,
+				81B46E611BEB4E580071D024 /* AddressBookTabBarControllerViewController.swift in Sources */,
+				81BBAF341BFAC8410027E469 /* UserAddress.swift in Sources */,
+				81F5F1E31C01A7E3007D2602 /* AboutViewController.swift in Sources */,
 				81A035D91BEA1BFA00CB183C /* AppDelegate.swift in Sources */,
+				819155411C003255004E68A9 /* HYAlertViewController.swift in Sources */,
+				81AE17F61BF5AB0C00C6BDCB /* SetViewController.swift in Sources */,
+				8188B40B1C17097B0060E001 /* SqliteOpertion.swift in Sources */,
+				81CC46921BF6E43800F81120 /* PersonalCodeViewController.swift in Sources */,
+				81A036221BEA1C8300CB183C /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +697,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81A035DC1BEA1BFA00CB183C /* Main.storyboard */ = {
+		810D4C131C1C05870077CDE2 /* SMS_SDKLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81A035DD1BEA1BFA00CB183C /* Base */,
+				810D4C141C1C05870077CDE2 /* en */,
+				810D4C171C1C05870077CDE2 /* zh-Hans */,
 			);
-			name = Main.storyboard;
+			name = SMS_SDKLocalizable.strings;
 			sourceTree = "<group>";
 		};
 		81A035E11BEA1BFA00CB183C /* LaunchScreen.storyboard */ = {
@@ -310,6 +712,15 @@
 				81A035E21BEA1BFA00CB183C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		81B3686C1C1A8C9B0069F848 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B3686D1C1A8C9B0069F848 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -335,6 +746,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -379,6 +791,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -399,11 +812,28 @@
 		81A035FE1BEA1BFA00CB183C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adressbook/libraries",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/QQSDK",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
 				INFOPLIST_FILE = adressbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.huayuan.com.adressbook;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/SinaWeiboSDK",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.huayuan.adressbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adressbook/adressbook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -411,10 +841,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adressbook/libraries",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/QQSDK",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
 				INFOPLIST_FILE = adressbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.huayuan.com.adressbook;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/SinaWeiboSDK",
+					"$(PROJECT_DIR)/adressbook/libraries/extends/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.huayuan.adressbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adressbook/adressbook-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -485,6 +930,7 @@
 				81A035FF1BEA1BFA00CB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A036001BEA1BFA00CB183C /* Build configuration list for PBXNativeTarget "adressbookTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +939,7 @@
 				81A036021BEA1BFA00CB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81A036031BEA1BFA00CB183C /* Build configuration list for PBXNativeTarget "adressbookUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +948,7 @@
 				81A036051BEA1BFA00CB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
